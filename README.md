@@ -8,7 +8,7 @@ Wei, X., Khachatryan, H., & Rihn, A. (2021). Estimating willingness-to-pay for n
 
 ## Data
 
-The data come from the Harvard Dataverse archive that the paper's Data Availability Statement points to: https://doi.org/10.7910/DVN/XCG1N8. Our team downloaded it on [DATE — about September 23, 2026; please confirm]. The file in `data/` is exactly as downloaded, with no edits.
+The data come from the Harvard Dataverse archive that the paper's Data Availability Statement points to: https://doi.org/10.7910/DVN/XCG1N8. Our team downloaded it on September 23, 2026. The file in `data/` is exactly as downloaded, with no edits.
 
 The archive also contains `CE_combined_sample.xls`, the discrete choice experiment data. It is not included here. Our code does not use it, because we replicated only the auction results, and at 30 MB it is larger than GitHub's web upload limit.
 
