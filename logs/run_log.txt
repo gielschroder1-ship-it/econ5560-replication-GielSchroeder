@@ -1,0 +1,114 @@
+Loaded data/SPA_combined_sample.xls: 2100 rows, 71 columns
+Estimating: Sample Total (n = 2100 )
+Estimating: Attitude toward pollinator: Agree Group (n = 1204 )
+Estimating: Attitude toward pollinator: Disagree Group (n = 896 )
+Estimating: Attitude toward neonicotinoid regulation: Agree Group (n = 1372 )
+Estimating: Attitude toward neonicotinoid regulation: Disagree Group (n = 728 )
+Estimating: Attitude toward labeling importance: Important Group (n = 952 )
+Estimating: Attitude toward labeling importance: Unimportant Group (n = 644 )
+Estimating: Overall PEB attitude: PEB Group (n = 616 )
+Estimating: Overall PEB attitude: Non-PEB Group (n = 1484 )
+
+Replicated Table 6:
+                             Experimental Auction / Tobit WTP Mean Significance
+                                             Sample Total                      
+                            Neonicotinoid-free text label    0.208             
+                                  Neonicotinoid-free logo    0.455           **
+                         Neonicotinoid-treated text label   -0.122             
+                  Attitude toward pollinator: Agree Group                      
+                            Neonicotinoid-free text label    0.446            *
+                                  Neonicotinoid-free logo    0.780          ***
+                         Neonicotinoid-treated text label   -0.094             
+               Attitude toward pollinator: Disagree Group                      
+                            Neonicotinoid-free text label   -0.110             
+                                  Neonicotinoid-free logo    0.018             
+                         Neonicotinoid-treated text label   -0.164             
+    Attitude toward neonicotinoid regulation: Agree Group                      
+                            Neonicotinoid-free text label    0.415            *
+                                  Neonicotinoid-free logo    0.668           **
+                         Neonicotinoid-treated text label   -0.138             
+ Attitude toward neonicotinoid regulation: Disagree Group                      
+                            Neonicotinoid-free text label   -0.164             
+                                  Neonicotinoid-free logo    0.086             
+                         Neonicotinoid-treated text label   -0.094             
+     Attitude toward labeling importance: Important Group                      
+                            Neonicotinoid-free text label    0.331             
+                                  Neonicotinoid-free logo    0.659            *
+                         Neonicotinoid-treated text label   -0.143             
+   Attitude toward labeling importance: Unimportant Group                      
+                            Neonicotinoid-free text label   -0.159             
+                                  Neonicotinoid-free logo    0.054             
+                         Neonicotinoid-treated text label   -0.088             
+                          Overall PEB attitude: PEB Group                      
+                            Neonicotinoid-free text label    0.639            *
+                                  Neonicotinoid-free logo    1.052           **
+                         Neonicotinoid-treated text label   -0.097             
+                      Overall PEB attitude: Non-PEB Group                      
+                            Neonicotinoid-free text label    0.032             
+                                  Neonicotinoid-free logo    0.214             
+                         Neonicotinoid-treated text label   -0.132             
+    SE
+      
+ 0.146
+ 0.157
+ 0.160
+      
+ 0.210
+ 0.225
+ 0.231
+      
+ 0.195
+ 0.210
+ 0.214
+      
+ 0.205
+ 0.220
+ 0.225
+      
+ 0.164
+ 0.176
+ 0.179
+      
+ 0.250
+ 0.269
+ 0.274
+      
+ 0.166
+ 0.178
+ 0.181
+      
+ 0.315
+ 0.338
+ 0.346
+      
+ 0.154
+ 0.166
+ 0.169
+
+Wrote outputs/table6_tobit_wtp.csv and outputs/table6_tobit_wtp.tex
+Total run time: 0.5414269 secs 
+
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin23
+Running under: macOS Golden Gate 27.2
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: America/Los_Angeles
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] readxl_1.6.0
+
+loaded via a namespace (and not attached):
+ [1] compiler_4.6.1   magrittr_2.0.5   cli_3.6.6        tools_4.6.1     
+ [5] pillar_1.11.1    glue_1.8.1       tibble_3.3.1     cellranger_1.1.0
+ [9] vctrs_0.7.3      lifecycle_1.0.5  pkgconfig_2.0.3  rlang_1.3.0     
